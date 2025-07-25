@@ -8,3 +8,31 @@ nav a {
     display: block;
     padding: 20px;
 }
+
+main {
+    max-width: 480px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(red, green, blue); /* */
+    padding:1rem;
+    background-color: #f6f6f8;
+    color: #0e0d0d;
+    text-align: center;
+
+}
+
+main img {
+    width: 200px;
+    height: auto;
+}
+
+p { padding: 0;}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
