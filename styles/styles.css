@@ -9,9 +9,6 @@ nav a {
     padding: 20px;
 }
 
-main {
-    max-width: 480px;
-}
 
 aside {
     width: 20rem;
@@ -24,15 +21,26 @@ aside {
 
 }
 
-main img {
+aside img {
     width: 200px;
     height: auto;
 }
 
-p { padding: 0;}
-
 footer {
     margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+main {
+    width: 150px;
+    height: auto;
+}
+
+p {padding: 0;}
+
+footer {
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
